@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(232, 232, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    height: 50px;
+}
+
+.navbar-nav{
+    margin-right: 15px;
+}
+
+.navbar-nav a{
+    margin: 15px;
+    font-size: 22px;
+    color: red;
+}
+
+.navbar .logo img{
+    width: 80px; 
+    color: red;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.home .lihat button{
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: black;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menu{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+}
+
+.menu .pisang button{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 8px 13px 8px 13px;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menu .tahu button{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 8px 13px 8px 13px;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.menu .esbuah button{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 8px 13px 8px 13px;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+table, tr, td{
+    border: 1px solid;
+    width: 70%;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabel{
+    padding-left: 320px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+.bisa{
+    padding-left: 25px;
+}
